@@ -8,7 +8,9 @@ function currenttabcallback(callback) {
 }
 
 function updateVolumeDisplay(gainvalue) {
-    document.getElementById('TabDJExtensionVolumeDisplay').textContent = `${Math.round(gainvalue * 100)}%`;
+    const display = document.getElementById('TabDJExtensionVolumeDisplay');
+    display.textContent = `${Math.round(gainvalue * 100)}%`;
+    display.style.setProperty('--volume', `${gainvalue * 100}%`);
 }
 
 function setvalue() {
