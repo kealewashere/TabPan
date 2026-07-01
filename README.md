@@ -21,7 +21,7 @@ It's a rebranded and extended fork of [TabDJ](https://github.com/davidschlachter
 ### Installation Instructions
 Chrome Web Store installation is the intended distribution path, but for local development:
 
-1. Clone the repo
+1. Clone the repo from [the most recent release](https://github.com/kealewashere/TabPanEQ/releases)
 2. Open Chrome and go to chrome://extensions
 3. Enable Developer mode (toggle, top-right)
 4. Click Load unpacked and select the repo folder
