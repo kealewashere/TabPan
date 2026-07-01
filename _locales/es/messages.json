@@ -26,5 +26,24 @@
   "volume": {
     "message": "Volumen",
     "description":"Caption for the volume"
+<<<<<<< Updated upstream
+=======
+  },
+  "tabBalance": {
+    "message": "Equilibrio",
+    "description":"Tab nav label for the balance/volume panel"
+  },
+  "tabEqualizer": {
+    "message": "Ecualizador",
+    "description":"Tab nav label for the equalizer panel"
+  },
+  "resetEq": {
+    "message": "Reiniciar",
+    "description":"Button that resets all equalizer bands to 0dB"
+  },
+  "refreshAudio": {
+    "message": "Recargar audio de esta pestaña",
+    "description":"Tooltip/label for the button that rebuilds the audio capture if panning/volume/EQ stop responding"
+>>>>>>> Stashed changes
   }
 }
